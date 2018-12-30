@@ -21,7 +21,7 @@ import java.util.List;
 public class Bot extends TelegramLongPollingBot {
 	private final static Logger LOGGER = Logger.getLogger(Bot.class);
 
-	boolean flag = true;
+	private boolean flag = true;
 
 	public static void main(String[] args) {
 		ApiContextInitializer.init();
